@@ -62,7 +62,7 @@ const EmployeeSchema = new mongoose.Schema({
   created: { 
     type: Date,
     default: Date.now,
-    alias: 'createdat'
+    alias: 'createdate'
   },
   updatedat: { 
     type: Date,
